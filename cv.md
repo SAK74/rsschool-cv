@@ -21,9 +21,16 @@ work with people with similar interests and expand my experience.
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="CSS Logo" width="40"/>  
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JS Logo" width="40"/>  
 - <img src="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg" alt="TS Logo" width="40"/>
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Logo" width="40"/>  
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React Logo" width="40"/> + <img src="https://cdn.worldvectorlogo.com/logos/redux.svg" alt="Redux Logo" width="40"/> + <img src="https://cdn.worldvectorlogo.com/logos/material-ui-1.svg" alt="MUI Logo" width="40"/>
 
 ## Code example:  
-???  
+
+ `Invite to` &nbsp;[`Github`](https://github.com/SAK74) 
+
 ## Education:  
+**Lviv Polytechnic National University**  
+*engineer, automatic and technical systems control*
 ## Languages:  
+- ***English:***  Intermediate/upper intermediate (depending on the context)
+- ***Ukrainian:***   Native  
+- ***Polish:***  Bilingual
