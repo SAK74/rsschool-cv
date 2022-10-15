@@ -1,3 +1,26 @@
+:root{
+  --nav-width: 20%;
+}
+
 body{
-  color: red;
+  display: flex;
+  justify-content: center;
+}
+
+.container{
+  background-color: lightgrey;
+  width: 95%;
+  position: relative;
+  padding: 2rem 1rem 1rem;
+  display: flex;
+}
+
+main{
+  /* margin-left: var(--nav-width); */
+  padding-left: 2rem;
+}
+
+.nav-block{
+    width: var(--nav-width);
+    border-right: 1px solid darkgray;
 }
