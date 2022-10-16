@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CV</title>
+  <link rel="icon" type="image/x-icon" href="images/OctoCat.png">
+</head>
+
+<body>
+  <div class="container">
+    <div class="nav-block">
+      <img src="images/foto.jpg" alt="photo" width="100">
+      <nav>
+        <ul>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skils">Skils</a></li>
+          <li><a href="#code-ex">Code example</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#lang">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <h1>Serhiy Kusyy</h1>
+      <h3>Junior Frontend Developer</h3>
+      <section id="contact">
+        <h3>Contact:</h3>
+        <ul>
+          <li>Phone: +48 _________</li>
+          <li>E-mail: @@@@@</li>
+          <li><a href="https://github.com/SAK74">Github</a></li>
+          <li>
+            <a href="https://www.linkedin.com/in/serhiy-kusyy/" target="_blank" rel="noreferrer">
+              Linkedin
+            </a>
+          </li>
+        </ul>
+      </section>
+      <section id="about">
+        <h3>About me:</h3>
+        <p>
+          I started to be interested in programming as a teenager. I was tooking
+          at it rather as a hobby, a passion that allowed me to develop and gain
+          new onesskills. At some point I came to the conclusion, that what I like
+          can become mine way of life. I am actualy looking for my first job in the
+          IT (prefered skils <em>JS / React Development</em> ), where I will be able to
+          work with people with similar interests and expand my experience.
+        </p>
+      </section>
+      <section id="skils">
+        <h3>Skils:</h3>
+        <ul>
+          <li><img src="images/html.svg" alt="html-logo"></li>
+          <li><img src="images/css3.svg" alt="css-logo"></li>
+          <li>
+            <span>
+              <img src="images/JS-logo.svg" alt="css-logo">
+              <img src="images/TS-logo.svg" alt="css-logo">
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src="images/React-logo.svg" alt="react-logo">
+              <span>+</span>
+              <img src="images/redux.svg" alt="redux-logo">
+              <span>+</span>
+              <img src="images/material-ui-1.svg" alt="react-logo">
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section id="code-ex">
+        <h3>Code example:</h3>
+        <pre>
+          export const fetchData = &lt;T&gt;(type: RequestType) =&gt;
+            createAsyncThunk(
+              `${type}/fetch`,
+              () =&gt; api.get&lt;T&gt;(type).then((data) =&gt; data.records) // or api.get(type) to mocked fetch
+            );
+          </pre>
+        <p>For any examples invite to <a href="https://github.com/SAK74">Github!</a></p>
+      </section>
+      <section id="edu">
+        <h3>Education:</h3>
+        <p>
+          <strong>Lviv Polytechnic National University</strong>
+          <em>engineer, automatic and technical systems control</em>
+        </p>
+      </section>
+      <section id="lang">
+        <h3>Languages:</h3>
+        <ul>
+          <li><strong>English: </strong>Intermediate/upper intermediate (depending on the context)</li>
+          <li><strong>Ukrainian: </strong>Intermediate/upper intermediate (depending on the context)</li>
+          <li><strong>Polish: </strong>Intermediate/upper intermediate (depending on the context)</li>
+        </ul>
+      </section>
+      <hr>
+      <footer>
+        <a href="https://github.com/SAK74">
+          <img src="images/Github.png" alt="github-logo">
+        </a>
+        <time datetime="2022-10-16">16 october 2022</time>
+        <a href="https://rs.school/" target="_blank" rel="noreferrer">
+          <img src="images/rs_school.svg" alt="RS-logo">
+        </a>
+      </footer>
+    </main>
+  </div>
+</body>
+
+</html>
