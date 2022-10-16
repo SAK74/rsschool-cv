@@ -8,16 +8,15 @@ body{
 }
 
 .container{
-  background-color: #f5f1f1;
-  width: 95%;
   position: relative;
-  padding: 2rem 1rem 1rem;
   display: flex;
+  width: 95%;
+  padding: 2rem 1rem 1rem;
+  background-color: #f5f1f1;
   line-height: 2rem;
 }
 
 main{
-  /* margin-left: var(--nav-width); */
   padding-left: 2rem;
 }
 
@@ -29,9 +28,17 @@ main{
 li img{
   height: 3.5rem;
 }
-
 li>span{
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
+}
+
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+footer img{
+  height: 2rem;
 }
