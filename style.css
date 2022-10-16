@@ -1,5 +1,5 @@
 :root{
-  --nav-width: 20%;
+  --nav-width: 45%;
 }
 
 body{
@@ -10,6 +10,7 @@ body{
 .container{
   position: relative;
   display: flex;
+  overflow: auto;
   width: 95%;
   padding: 2rem 1rem 1rem;
   background-color: #f5f1f1;
@@ -19,10 +20,22 @@ body{
 main{
   padding-left: 2rem;
 }
+h1, h1 + h3{
+  text-align: center;
+}
+section>p{
+  margin-left: 2rem;
+}
 
 .nav-block{
   width: var(--nav-width);
   border-right: 1px solid darkgray;
+}
+nav{
+  margin-top: 2rem;
+}
+nav ul{
+  list-style-type: square;
 }
 
 li img{
@@ -32,6 +45,14 @@ li>span{
   display: inline-flex;
   align-items: center;
   column-gap: 0.5rem;
+}
+span img + span{
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+
+hr{
+  margin-top: 3rem;
 }
 
 footer{
