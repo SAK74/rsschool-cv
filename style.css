@@ -8,11 +8,12 @@ body{
 }
 
 .container{
-  background-color: lightgrey;
+  background-color: #f5f1f1;
   width: 95%;
   position: relative;
   padding: 2rem 1rem 1rem;
   display: flex;
+  line-height: 2rem;
 }
 
 main{
@@ -21,6 +22,16 @@ main{
 }
 
 .nav-block{
-    width: var(--nav-width);
-    border-right: 1px solid darkgray;
+  width: var(--nav-width);
+  border-right: 1px solid darkgray;
+}
+
+li img{
+  height: 3.5rem;
+}
+
+li>span{
+  display: inline-flex;
+  align-items: center;
+  column-gap: 0.5rem;
 }

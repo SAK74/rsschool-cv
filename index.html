@@ -16,11 +16,12 @@
       <img src="images/foto.jpg" alt="photo" width="100">
       <nav>
         <ul>
-          <li>Contact</li>
-          <li>ABout me</li>
-          <li>Skils</li>
-          <li>Education</li>
-          <li>Languages</li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#about">About me</a></li>
+          <li><a href="#skils">skils</a></li>
+          <li><a href="#code-ex">Code example</a></li>
+          <li><a href="#edu">Education</a></li>
+          <li><a href="#lang">Languages</a></li>
         </ul>
       </nav>
     </div>
@@ -32,29 +33,74 @@
         <ul>
           <li>Phone: +48 _________</li>
           <li>E-mail: @@@@@</li>
-          <li><a href="https://github.com/SAK74"><strong>Github</strong></a></li>
+          <li><a href="https://github.com/SAK74">Github</a></li>
           <li>
             <a href="https://www.linkedin.com/in/serhiy-kusyy/" target="_blank" rel="noreferrer">
-              <strong>Linkedin</strong>
+              Linkedin
             </a>
           </li>
         </ul>
       </section>
       <section id="about">
-
+        <h3>About me:</h3>
+        <p>
+          I started to be interested in programming as a teenager. I was tooking
+          at it rather as a hobby, a passion that allowed me to develop and gain
+          new onesskills. At some point I came to the conclusion, that what I like
+          can become mine way of life. I am actualy looking for my first job in the
+          IT (prefered skils JS / React Development), where I will be able to
+          work with people with similar interests and expand my experience.
+        </p>
       </section>
       <section id="skils">
-
+        <h3>Skils:</h3>
+        <ul>
+          <li><img src="images\html.svg" alt="html-logo"></li>
+          <li><img src="images\css3.svg" alt="css-logo"></li>
+          <li>
+            <span>
+              <img src="images\JS-logo.svg" alt="css-logo">
+              <img src="images\TS-logo.svg" alt="css-logo">
+            </span>
+          </li>
+          <li>
+            <span>
+              <img src="images\React-logo.svg" alt="react-logo">
+              <span>+</span>
+              <img src="images\redux.svg" alt="redux-logo">
+              &nbsp;+&nbsp;
+              <img src="images\material-ui-1.svg" alt="react-logo">
+            </span>
+          </li>
+        </ul>
+      </section>
+      <section id="code-ex">
+        <h3>Code example:</h3>
+        <pre>
+          export const fetchData = <T>(type: RequestType) =>
+            createAsyncThunk(
+              `${type}/fetch`,
+              () => api.get<T>(type).then((data) => data.records) // or api.get(type) to mocked fetch
+            );
+        </pre>
+        <p>For any examples invite to <a href="https://github.com/SAK74" alt="github">Github!</a></p>
       </section>
       <section id="edu">
-
+        <h3>Education:</h3>
+        <p>
+          <strong>Lviv Polytechnic National University</strong>
+          <em>engineer, automatic and technical systems control</em>
+        </p>
       </section>
       <section id="lang">
-
+        <h3>Languages:</h3>
+        <ul>
+          <li><strong>English: </strong>Intermediate/upper intermediate (depending on the context)</li>
+          <li><strong>Ukrainian: </strong>Intermediate/upper intermediate (depending on the context)</li>
+          <li><strong>Polish: </strong>Intermediate/upper intermediate (depending on the context)</li>
+        </ul>
       </section>
     </main>
-
-
     <footer>
 
     </footer>
